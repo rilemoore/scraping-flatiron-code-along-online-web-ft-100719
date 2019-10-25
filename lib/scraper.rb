@@ -18,7 +18,7 @@ class Scraper
       new_course = Course.new
       new_course.title = course.css("h2").text
       new_course.schedule = course.css("em").text
-      new_course.schedule = course.css("p").text
+      new_course.description = course.css("p").text
     end
     binding.pry
   end
