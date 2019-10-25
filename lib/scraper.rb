@@ -20,7 +20,6 @@ class Scraper
       new_course.schedule = course.css("em").text
       new_course.description = course.css("p").text
     end
-    binding.pry
   end
   
   
