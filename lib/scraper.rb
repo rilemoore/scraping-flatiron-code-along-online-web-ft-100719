@@ -15,7 +15,8 @@ class Scraper
   
   def make_courses
     get_courses.each do |course|
-      binding.pry
+      new_course = Course.new
+      new_course.title = 
     end
   end
   
